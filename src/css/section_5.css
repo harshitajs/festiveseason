@@ -1,0 +1,80 @@
+.technoid-section-5 {
+  position: relative;
+  width: 100%;
+}
+.technoid-header5-container {
+  position: relative;
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+}
+.festive-cards-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.festive-cards-container div {
+  margin-right: 10px;
+}
+.card1 {
+  width: 25%;
+}
+.card1 img {
+  border: 1.5px solid var(--violet);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.card2 {
+  width: 25%;
+}
+.card2 img {
+  border: 1.5px solid #f5c547;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.greeting-cookie {
+  position: absolute;
+  left: 22%;
+  top: 3%;
+  width: 7%;
+}
+.violet-balloon {
+  position: absolute;
+  width: 15%;
+  right: 6%;
+  top: 3%;
+}
+#greetings-message-box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+#greetings-message-box span {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #eb436f;
+  padding-top: 10%;
+  display: inline-block;
+}
+#greetings-message-box p {
+  color: #000;
+  font-size: 35px;
+  margin: 13px 0 40px;
+}
+
+#purpleBox,
+#imageCard1,
+#imageCard2,
+.greetingCookie,
+.violetBalloon {
+  max-width: 100%;
+}

@@ -1,0 +1,60 @@
+.technoid-section-7 {
+  width: 100%;
+  position: relative;
+  padding: 50px 0 70px;
+}
+.technoid-header7-container {
+  position: relative;
+  width: 100%;
+}
+.technoid-header7-middle {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.content-box-7 {
+  margin: 0 auto;
+  width: 60%;
+  letter-spacing: 2px;
+}
+.content-box-7 .content-para-7 {
+  position: relative;
+  font-weight: normal !important;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.modifiied-btn {
+  margin: 40px 0 0 0;
+  padding: 15px 0;
+  width: 100%;
+}
+.pink-balloon-7 {
+  position: absolute;
+  width: 8%;
+  top: -10%;
+  left: 10%;
+}
+.technoid-kite-7 {
+  position: absolute;
+  left: 70%;
+  width: 6%;
+  top: -30%;
+}
+.technoid-cookie-7 {
+  position: absolute;
+  right: 15%;
+  top: 10%;
+  width: 8%;
+}
+.green-balloon-7 {
+  position: absolute;
+  width: 9%;
+  right: 3%;
+  bottom: -20%;
+}
+.imgPinkBalloon7,
+.imgKite7,
+.imgCookie7,
+.imgGreenBalloon7 {
+  max-width: 100%;
+}

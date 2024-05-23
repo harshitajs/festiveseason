@@ -1,0 +1,96 @@
+.technoid-section-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 10px);
+  z-index: 9;
+}
+.technoid-section-2.technoid-header2-container {
+  padding: 0 10px;
+}
+.technoid-header2-left {
+  height: 100%;
+}
+.smoke-lamp {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  width: 20%;
+  z-index: 50;
+}
+.smoke-image {
+  position: absolute;
+  left: 10%;
+  top: -3%;
+  width: 12%;
+}
+.technoid-header2-middle {
+  text-align: center;
+}
+.content-box {
+  width: 40%;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+}
+.content-box .content-para {
+  position: relative;
+  font-size: 30px;
+  font-family: system-ui;
+  font-weight: normal !important;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.content-button {
+  width: auto;
+  margin: 0 auto;
+  padding: 10px 40px;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white);
+  cursor: pointer;
+  background: #8a59c8;
+  border: none;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.content-button:hover {
+  background-color: #f5c547;
+}
+.header-image-technoid-shine .technoid-shine-2 {
+  position: absolute;
+  top: 2%;
+  right: 23%;
+  width: 10%;
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+}
+.technoid-kite {
+  width: 20%;
+  position: absolute;
+  top: 60%;
+  right: 5%;
+}
+.technoid-wave {
+  position: absolute;
+  width: 80%;
+  left: -20%;
+  bottom: 0;
+}
+.smokeLamp,
+.smokeImage,
+.techoidShine1,
+.techoidKite,
+.techoidWave {
+  max-width: 100%;
+}

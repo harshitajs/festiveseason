@@ -1,0 +1,293 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .technoid-flex-header.technoid-flex-item-left {
+    flex-direction: column;
+  }
+  .technoid-jug {
+    left: 23%;
+    top: 36%;
+    width: 40%;
+    transform: translateY(-80%);
+    -webkit-transform: translateY(-55%);
+    -moz-transform: translateY(-80%);
+    -ms-transform: translateY(-80%);
+    -o-transform: translateY(-80%);
+  }
+  .half-biscuit {
+    right: 32%;
+    width: 10%;
+  }
+  .technoid-ED-content {
+    width: 60%;
+    transform: translateY(-60%);
+    -webkit-transform: translateY(-60%);
+    -moz-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    -o-transform: translateY(-60%);
+  }
+  .technoid-cup {
+    width: 33%;
+    right: 2%;
+    bottom: 48%;
+    transform: translateY(20%) rotate(-5deg);
+    -webkit-transform: translateY(20%) rotate(-5deg);
+    -moz-transform: translateY(20%) rotate(-5deg);
+    -ms-transform: translateY(20%) rotate(-5deg);
+    -o-transform: translateY(20%) rotate(-5deg);
+  }
+  .technoid-chocolayer {
+    width: 33%;
+    right: 2%;
+    bottom: 48%;
+    transform: translateY(20%) rotate(-5deg);
+    -webkit-transform: translateY(20%) rotate(-5deg);
+    -moz-transform: translateY(20%) rotate(-5deg);
+    -ms-transform: translateY(20%) rotate(-5deg);
+    -o-transform: translateY(20%) rotate(-5deg);
+  }
+  .ribbon1 {
+    top: -5%;
+  }
+
+  .technoid-header2-middle {
+    width: 60%;
+    margin: auto;
+  }
+  .technoid-section-2 .content-box {
+    width: 100%;
+  }
+  .technoid-section-2 .content-box .content-para {
+    font-size: 20px;
+  }
+  .smoke-lamp {
+    left: -2%;
+    top: 30%;
+    width: 17%;
+  }
+  .smoke-image {
+    left: 1%;
+    top: 24%;
+    width: 13%;
+  }
+  .header-image-technoid-shine .technoid-shine-2 {
+    right: 5%;
+    top: 10%;
+    width: 10%;
+  }
+  .header-image-technoid-kite .technoid-kite {
+    top: 75%;
+    right: 2%;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+  }
+  .header-image-technoid-wave .technoid-wave {
+    left: -50%;
+    width: 95%;
+    bottom: 8%;
+  }
+  .technoid-section-3 {
+    padding-bottom: 15px;
+  }
+  .technoid-header3-middle .content-box-3,
+  .technoid-header4-middle .content-box-4,
+  .technoid-header6-middle .content-box-6 {
+    width: 60%;
+  }
+  .content-box-3 .content-para-3,
+  .content-box-4 .content-text-4,
+  .content-box-6 .content-text-6,
+  .content-box-7 .content-para-7 {
+    font-size: 20px;
+  }
+
+  .button-class {
+    font-size: 16px;
+    padding: 15px 0px;
+  }
+  .button-class.button-class-darkMode {
+    box-shadow: 1px 1px 8px -1px #ffc836;
+  }
+  .technoid-slogan {
+    display: none;
+  }
+  .technoid-greenWave {
+    width: 140%;
+    left: -50%;
+    top: -3%;
+  }
+  .technoid-purpleWave {
+    width: 170%;
+    left: -35%;
+    top: -1%;
+  }
+  .green-note {
+    width: 90%;
+    position: absolute;
+    top: 40%;
+  }
+  .pink-note {
+    width: 60%;
+    position: absolute;
+    left: 13%;
+    top: 27%;
+  }
+  .family-woman {
+    width: 22%;
+    bottom: 12%;
+    left: 14%;
+  }
+  .family-man {
+    width: 18%;
+    bottom: 10%;
+    left: 2%;
+  }
+  .family-girl {
+    width: 19%;
+    bottom: 11%;
+    left: 10%;
+  }
+  .family-wave {
+    width: 42%;
+    bottom: -3%;
+    left: -2%;
+  }
+  .the-red-box {
+    width: 11%;
+    top: 28%;
+    right: 6%;
+  }
+  .the-red-box-lid {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    width: 10%;
+  }
+  .the-purple-box {
+    width: 15%;
+    right: 13%;
+    top: 64%;
+  }
+  .the-pink-note {
+    width: 5%;
+    right: 20%;
+    bottom: 22%;
+  }
+  .the-green-note {
+    width: 5%;
+    bottom: 23%;
+    right: 17%;
+    transform: rotate(-15deg);
+  }
+  .the-blue-note {
+    width: 5%;
+    bottom: 27%;
+    right: 14%;
+  }
+  .card1,
+  .card2 {
+    width: 40%;
+  }
+  .technoid-header5-container {
+    padding: 70px 0;
+  }
+  div#greetings-message-box {
+    padding-top: 22px;
+  }
+  #greetings-message-box p {
+    font-size: 22px;
+  }
+  .technoid-button-list {
+    flex-direction: column;
+  }
+  button.button-class {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  .greeting-cookie {
+    width: 13%;
+    top: -5%;
+  }
+  .violet-balloon {
+    width: 28%;
+    top: 30%;
+    right: 5%;
+  }
+  section#technoid-section-6 {
+    z-index: 8;
+  }
+  .technoid-header6-container {
+    padding: 50px 0 70px;
+  }
+  .gaint-wheel {
+    width: 30%;
+    left: -55%;
+    top: 47%;
+  }
+  .gaint-slide {
+    width: 25%;
+    right: -27%;
+    bottom: 28%;
+  }
+  .technoid-orangewave-6 {
+    width: 90%;
+    right: -14%;
+    bottom: -9%;
+  }
+  .technoid-purplewave-6 {
+    width: 54%;
+    bottom: 11%;
+    right: -5%;
+  }
+  section#technoid-section-7 {
+    padding: 100px 0 70px;
+  }
+  .technoid-header7-middle {
+    width: 60%;
+  }
+  .technoid-header7-middle .content-box-7 {
+    width: 100%;
+  }
+  .technoid-kite-7 {
+    width: 10%;
+    left: 40%;
+    top: -20%;
+  }
+  .technoid-cookie-7 {
+    width: 15%;
+    top: -35%;
+  }
+  .pink-balloon-7 {
+    width: 15%;
+    top: -40%;
+    left: 5%;
+  }
+  .green-balloon-7 {
+    width: 15%;
+    right: -6%;
+    bottom: 10%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* section.happiness
+    .happiness-container
+    .happiness-img.happiness-right-img
+    .kiteImg {
+    right: 5%;
+    top: auto;
+    width: 17%;
+  } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
