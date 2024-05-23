@@ -1,7 +1,7 @@
 import audioDisable from "../images/audio-disable.png";
 import audioEnable from "../images/audio-enable.png";
 // import sampleLogo from "../images/sample-logo.jpeg";
-import sampleLogo from "../images/logo.png";
+// import sampleLogo from "../images/logo.png";
 import darkMode from "../images/dark-mode.png";
 import lightMode from "../images/light-mode.png";
 import headerImage from "../images/section1-header.png";
