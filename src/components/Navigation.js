@@ -128,7 +128,7 @@ const Navigation = () => {
 
           <div className="technoid-flex-header technoid-flex-item-middle">
             <div className="sampleLogo">
-              <img src={sampleLogo} alt="Sample Logo" />
+              <img src="" alt="Sample Logo" />
             </div>
           </div>
 
