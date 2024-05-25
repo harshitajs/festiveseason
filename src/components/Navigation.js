@@ -1,5 +1,7 @@
 import audioDisable from "../images/audio-disable.png";
 import audioEnable from "../images/audio-enable.png";
+// import sampleLogo from "../images/sample-logo.jpeg";
+// import sampleLogo from "../images/logo.png";
 import darkMode from "../images/dark-mode.png";
 import lightMode from "../images/light-mode.png";
 import headerImage from "../images/section1-header.png";
@@ -9,6 +11,8 @@ import imgSloganLight from "../images/slogan-light.png";
 import imgSloganDark from "../images/slogan-dark.png";
 import imgPinkWaveDark from "../images/pinkWave-darkMode.png";
 import imgPinkWaveLight from "../images/pinkWave-lightMode.png";
+import imgEDmessageDark from "../images/eid-message-darkMode.png";
+import imgEDmessageLight from "../images/eid-message-lightMode.png";
 import { useState } from "react";
 
 const Navigation = () => {
@@ -25,6 +29,7 @@ const Navigation = () => {
     const OverlayImg = modeFlag ? headerImageDark : headerImage;
     const sloganImg = modeFlag ? imgSloganDark : imgSloganLight;
     const waveImg = modeFlag ? imgPinkWaveDark : imgPinkWaveLight;
+    const EIDImg = modeFlag ? imgEDmessageDark : imgEDmessageLight;
 
     /* Change the color of the elements and sections when in dark mode*/
 
@@ -34,6 +39,7 @@ const Navigation = () => {
     document.getElementById("headerImage").src = OverlayImg;
     document.getElementById("sloganImg").src = sloganImg;
     document.getElementById("imgFamilyWave").src = waveImg;
+    document.getElementById("imgEDmessage").src = EIDImg;
 
     document
       .getElementById("technoid-header")

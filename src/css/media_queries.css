@@ -8,6 +8,9 @@
   .sampleLogo img {
     width: 100px;
   }
+  .technoid-modal-box {
+    max-width: 80%;
+  }
   .technoid-section-1 {
     position: relative;
     height: calc(100vh - 40px);
@@ -31,7 +34,7 @@
   }
   #technoid-header {
     font-size: 0;
-    padding: 7px 10px;
+    padding: 10px 10px;
   }
   .navbar .navbar-container {
     padding: 10px 10px 0;
@@ -483,10 +486,4 @@
     top: auto;
     width: 17%;
   } */
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
-  section {
-  }
 }

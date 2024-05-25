@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   height: auto;
-  padding: 0 20px;
+  padding: 30px 20px;
   z-index: 100;
 }
 .technoid-flex-header {
@@ -197,7 +197,7 @@
   font-weight: bold;
   color: #000;
   background-color: #f5c547;
-  width: 3rem;
+  width: 20%;
   border: 0;
   border-radius: 20px;
   -webkit-border-radius: 20px;
