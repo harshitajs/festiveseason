@@ -67,8 +67,8 @@
 }
 .orange-wave {
   position: absolute;
-  width: 45%;
-  right: -27%;
+  width: 68%;
+  right: -55%;
 }
 #technoid-button-container {
   padding: 60px 0;
@@ -98,7 +98,7 @@
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  background: var(--violet);
+  background: #8a59c8;
   color: var(--white);
   cursor: pointer;
   display: block;
@@ -111,6 +111,9 @@
   box-shadow: 0 0 22px -5px #ffc836;
   -webkit-box-shadow: 0 0 22px -5px #ffc836;
   -moz-box-shadow: 0 0 22px -5px #ffc836;
+}
+.button-class:hover {
+  background-color: #f5c547;
 }
 .techoidShine3,
 #tecnoid-slogan-im img,

@@ -1,10 +1,11 @@
 import audioDisable from "../images/audio-disable.png";
 import audioEnable from "../images/audio-enable.png";
 // import sampleLogo from "../images/sample-logo.jpeg";
-//import sampleLogo from "../images/logo.png";
+// import sampleLogo from "../images/logo.png";
 import darkMode from "../images/dark-mode.png";
 import lightMode from "../images/light-mode.png";
 import headerImage from "../images/section1-header.png";
+
 import headerImageDark from "../images/section1-header-dark.png";
 import imgSloganLight from "../images/slogan-light.png";
 import imgSloganDark from "../images/slogan-dark.png";
@@ -28,52 +29,32 @@ const Navigation = () => {
     const waveImg = modeFlag ? imgPinkWaveDark : imgPinkWaveLight;
 
     /* Change the color of the elements and sections when in dark mode*/
-    document.getElementById("technoid-visibility-img").src = modeImg;
-    document
-      .getElementById("technoid-visibility-img")
-      .classList.toggle("darkModeicon");
-    document.getElementById("checkMode").classList.toggle("technoid-darkMode");
-    document
-      .getElementById("technoid-lang")
-      .classList.toggle("technoid-lang-darkMode");
-    document.getElementById("headerImage").src = OverlayImg;
 
+    document.body.classList.toggle("technoid-bgcolor-darkMode");
+
+    document.getElementById("technoid-visibility-img").src = modeImg;
+    document.getElementById("headerImage").src = OverlayImg;
     document.getElementById("sloganImg").src = sloganImg;
     document.getElementById("imgFamilyWave").src = waveImg;
 
     document
-      .getElementById("technoid-section-1")
-      .classList.toggle("technoid-bgcolor-darkMode");
-    document
-      .getElementById("technoid-section-2")
-      .classList.toggle("technoid-bgcolor-darkMode");
+      .getElementById("technoid-header")
+      .classList.toggle("technoidHeader-dark-mode");
 
     document
-      .getElementById("technoid-section-3")
-      .classList.toggle("technoid-bgcolor-darkMode");
+      .getElementById("technoid-visibility-img")
+      .classList.toggle("darkModeicon");
+
+    document.getElementById("checkMode").classList.toggle("technoid-darkMode");
+    document
+      .getElementById("technoid-lang")
+      .classList.toggle("technoid-lang-darkMode");
 
     document
       .getElementById("technoid-button-container")
       .classList.toggle("technoid-bgcolor-darkMode");
 
-    document
-      .getElementById("technoid-section-4")
-      .classList.toggle("technoid-bgcolor-darkMode");
-
-    document
-      .getElementById("technoid-section-5")
-      .classList.toggle("technoid-bgcolor-darkMode");
-
-    document
-      .getElementById("technoid-section-6")
-      .classList.toggle("technoid-bgcolor-darkMode");
-
-    document
-      .getElementById("technoid-section-7")
-      .classList.toggle("technoid-bgcolor-darkMode");
-
     document.getElementById("msg1").classList.toggle("technoid-span-darkMode");
-
     document.getElementById("msg2").classList.toggle("technoid-p-darkMode");
 
     document
@@ -87,6 +68,8 @@ const Navigation = () => {
       .getElementById("content-button")
       .classList.toggle("dark-mode-button");
 
+    document.getElementById("moonImage").classList.toggle("visibility");
+    document.getElementById("sunImage").classList.toggle("visibility");
     btnElem = document.getElementsByClassName("button-class");
     for (var i = 0; i < btnElem.length; i++) {
       btnElem[i].classList.toggle("button-class-darkMode");
@@ -97,10 +80,7 @@ const Navigation = () => {
   return (
     <>
       <div className="technoid-main-container technoid-light-mode">
-        <header
-          className="technoid-flex-header-container technoid-header-light"
-          id="technoid-header"
-        >
+        <header className="technoid-flex-header-container" id="technoid-header">
           <div className="technoid-flex-header technoid-flex-item-left">
             <div id="technoid-lang">
               <div className="technoid-lang-option">

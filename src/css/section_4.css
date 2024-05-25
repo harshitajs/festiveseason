@@ -20,13 +20,13 @@
   width: 20%;
 }
 
-.greenNote {
+.green-note {
   position: absolute;
   left: 6%;
   top: 25%;
   width: 6%;
 }
-.pinkNote {
+.pink-note {
   position: absolute;
   left: 20%;
   top: 32%;
@@ -140,7 +140,8 @@
   -o-transform: rotate(220deg);
 }
 .greenWave,
-.purpleWave .greenNote,
+.purpleWave,
+.greenNote,
 .pinkNote,
 #imgWoman,
 #imgMan,

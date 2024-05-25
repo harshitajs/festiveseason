@@ -115,12 +115,7 @@ const TechnoidSection3 = () => {
 
           <div className="header-image-technoid-wave">
             <div className="orange-wave">
-              <Parallax
-                easing={"easeInOut"}
-                translateX={[-20, 0]}
-                translateY={[0, -70]}
-                speed={10}
-              >
+              <Parallax easing={"ease"} translateX={[30, 0]} speed={5}>
                 <img src={imgOrangeWave} alt="" className="orangeWave" />
               </Parallax>
             </div>
