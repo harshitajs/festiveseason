@@ -19,28 +19,11 @@ import imgBlueNote from "../images/blueNote1.png";
 import imgGreenNotes from "../images/greenNote1.png";
 
 gsap.registerPlugin(ScrollTrigger);
-const timeline4 = gsap.timeline({ repeat: -1, yoyo: true });
 
 const TechnoidSection4 = () => {
-  const tml4 = useRef(timeline4);
-  const technoidContainer4 = useRef(null);
-
-  useLayoutEffect(() => {
-    const ctx = gsap.context(() => {
-      // tml4.current.to(".techoidShine1", {
-      //   scale: [0.5, 1.3],
-      //   duration: 3,
-      // });
-    }, technoidContainer4.current);
-    return () => ctx.revert();
-  }, []);
   return (
     <>
-      <section
-        className="technoid-section-4"
-        id="technoid-section-4"
-        ref={technoidContainer4}
-      >
+      <section className="technoid-section-4" id="technoid-section-4">
         <div className="technoid-header4-container">
           <div className="header-image-technoid-wave">
             <div className="technoid-wave"></div>

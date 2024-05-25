@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+.wrapper {
+  overflow-x: hidden;
+}
 .technoid-flex-header-container {
   position: relative;
   display: flex;
@@ -92,8 +95,6 @@
 }
 .sampleLogo img {
   width: 125px;
-  border: none;
-  border-radius: 35px 35px 0 0;
 }
 .technoid-flex-item-right {
   display: flex;
@@ -102,8 +103,8 @@
   align-items: flex-end;
 }
 .technoid-visibility-box {
-  width: 95px;
-  height: 35px;
+  /* width: 95px;
+  height: 35px; */
 }
 .technoid-visibility-button {
   align-items: center;
@@ -133,7 +134,8 @@
   margin-left: 4px !important;
   margin-right: 0 !important;
 }
-.technoid-header-light {
+#technoid-header {
+  background-color: var(--white);
   box-shadow: -1px 0 500px -48px #902df52b;
   -webkit-box-shadow: -1px 0 -48px #902df52b;
   -moz-box-shadow: -1px 0 500px -48px #902df52b;
@@ -356,10 +358,8 @@
   color: #514f53;
 }
 .technoidHeader-dark-mode {
-  background-color: #6c3caf;
+  background-color: #6c3caf !important;
 }
-@media only screen and (max-width: 800px) {
-  .technoid-flex-container {
-    flex-direction: column;
-  }
+.sampleLogo {
+  display: none;
 }

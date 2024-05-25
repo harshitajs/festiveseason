@@ -1,0 +1,394 @@
+.technoid-section-8 {
+  width: 100%;
+  position: relative;
+
+  padding: 150px 0 70px;
+}
+.visibility {
+  display: none;
+}
+.technoid-header8-container {
+  position: relative;
+  width: 100%;
+}
+.technoid-guitar {
+  position: absolute;
+  left: 5%;
+  top: 1%;
+  width: 15%;
+}
+.technoid-green-treble {
+  position: absolute;
+  width: 2%;
+  left: 3%;
+  top: 1%;
+}
+.technoid-orange-treble {
+  position: absolute;
+  width: 3%;
+  left: 15%;
+  top: 00.5%;
+}
+.pink-kite {
+  position: absolute;
+  width: 10%;
+  right: 7%;
+  top: 0;
+}
+.purple-lyric {
+  position: absolute;
+  width: 4%;
+  left: 24%;
+  top: 2%;
+}
+
+.technoid-header8-middle {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.context-box-8 {
+  padding-top: 5%;
+  position: relative;
+  width: 38%;
+  margin: auto;
+}
+
+.size {
+  max-width: 100%;
+}
+.technoid-header8-bottom {
+  padding: 200px 0;
+}
+.technoid-fair-box,
+.fair-box-2 {
+  position: relative;
+}
+.item1 {
+  position: absolute;
+  width: 7%;
+  left: 2%;
+  top: 0%;
+  z-index: 1;
+}
+.item2 {
+  position: absolute;
+  width: 9%;
+  left: 7%;
+  top: 18%;
+}
+.item3 {
+  position: absolute;
+  width: 8%;
+  left: 42%;
+  top: -40%;
+}
+.item4 {
+  position: absolute;
+  width: 20%;
+  left: 47%;
+  top: -60%;
+}
+.item5 {
+  position: absolute;
+  right: 8%;
+  top: -30%;
+  width: 19%;
+}
+/* Fair Group */
+.bgImg1 {
+  display: none;
+}
+.greenWaveImage {
+  position: absolute;
+  width: 86%;
+  left: -2%;
+  top: 39%;
+  z-index: 20;
+}
+.purpleWaveImage {
+  position: absolute;
+  width: 68%;
+  left: -16%;
+  top: 50%;
+  z-index: 5;
+}
+.purpleWaveImage1 {
+  position: absolute;
+  width: 77%;
+  left: -25%;
+  top: 38%;
+}
+.manImg {
+  position: absolute;
+  width: 17%;
+  left: 30%;
+  top: 12%;
+  z-index: 16;
+}
+.ladyImg {
+  position: absolute;
+  width: 18%;
+  left: 41%;
+  top: 17%;
+  z-index: 10;
+}
+.girlImg {
+  position: absolute;
+  width: 17%;
+  left: 38%;
+  top: 36%;
+  z-index: 17;
+}
+.palmImage {
+  position: absolute;
+  width: 13%;
+  left: 45%;
+  top: 14%;
+  z-index: 9;
+}
+.villaImage1 {
+  position: absolute;
+  width: 15%;
+  right: 38%;
+  top: 27.5%;
+  z-index: 8;
+}
+.villaImage2 {
+  position: absolute;
+  width: 8%;
+  right: 30.7%;
+  top: 28.7%;
+  z-index: 7;
+}
+.bulbImage {
+  position: absolute;
+  width: 17%;
+  right: 15%;
+  top: 33.5%;
+  z-index: 13;
+}
+.jugImage {
+  position: absolute;
+  width: 17%;
+  right: 5%;
+  top: 20%;
+  z-index: 14;
+}
+.purpleBoxImage {
+  position: absolute;
+  width: 8%;
+  right: 2%;
+  top: 30%;
+}
+.orangeFlyKite {
+  position: absolute;
+  width: 6%;
+  right: 42%;
+  top: 9%;
+}
+.pinkFlyKite {
+  position: absolute;
+  width: 3%;
+  right: 39%;
+  top: 10%;
+}
+.pinkSmallBalloon {
+  position: absolute;
+  width: 8%;
+  right: 9%;
+  top: 5%;
+}
+.greenSmallBalloon {
+  position: absolute;
+  width: 8%;
+  right: 4%;
+  top: 14%;
+}
+.purpleSmallBalloon {
+  position: absolute;
+  width: 10%;
+  right: 15%;
+  top: 12%;
+}
+.pinkNoteFly {
+  position: absolute;
+  width: 6%;
+  right: 40%;
+  top: 75%;
+}
+.fullCookieImg {
+  position: absolute;
+  width: 5%;
+  right: 30%;
+  top: 75%;
+}
+.starImage1 {
+  position: absolute;
+  width: 14%;
+  left: 8%;
+  top: -54%;
+}
+.starImage2 {
+  position: absolute;
+  width: 4%;
+  right: 8%;
+  bottom: 18%;
+  transform: rotate(-70deg);
+  -webkit-transform: rotate(-70deg);
+  -moz-transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  -o-transform: rotate(-70deg);
+}
+.bulbsImage2 {
+  position: absolute;
+  width: 97%;
+  left: -200%;
+  top: 1%;
+}
+.yellowWaveImage {
+  position: absolute;
+  width: 120%;
+  left: -27%;
+  top: 15%;
+  z-index: 2;
+}
+.pinkWaveImage {
+  position: absolute;
+  width: 78%;
+  right: -13%;
+  top: 44%;
+  z-index: 14;
+}
+.orangeWaveImage {
+  position: absolute;
+  width: 82%;
+  right: -1%;
+  top: 48%;
+  z-index: 18;
+}
+.greenNoteImage {
+  position: absolute;
+  left: 1%;
+  top: 40%;
+  width: 3%;
+}
+.redGiftBoxImg {
+  position: absolute;
+  left: 4%;
+  top: 46%;
+  width: 7%;
+}
+.blueNoteImage {
+  position: absolute;
+  left: 1%;
+  top: 60%;
+  width: 3%;
+}
+.halfcookieImg {
+  position: absolute;
+  left: 6%;
+  top: 70%;
+  width: 5%;
+}
+.purpleEnvImg {
+  position: absolute;
+  left: 26%;
+  top: 75%;
+  width: 10%;
+}
+.pinkNoteEnvImg {
+  position: absolute;
+  left: 28%;
+  top: 85%;
+  width: 4%;
+  transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+}
+.greenNoteEnvImg {
+  position: absolute;
+  left: 26%;
+  top: 84%;
+  width: 4%;
+}
+.blueNoteEnvImg {
+  position: absolute;
+  left: 31%;
+  top: 82%;
+  width: 3%;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+}
+.smokeLampImg {
+  position: absolute;
+  left: 14%;
+  top: 66%;
+  width: 10%;
+}
+
+.greenChocoImg {
+  position: absolute;
+  left: 45%;
+  top: 75%;
+  width: 5%;
+}
+.blueChocoImg {
+  position: absolute;
+  left: 38%;
+  top: 77%;
+  width: 5%;
+}
+.purpleGiftboxImg {
+  position: absolute;
+  right: 18%;
+  top: 70%;
+  width: 10%;
+}
+.coffeeImage {
+  position: absolute;
+  right: 42%;
+  top: 54%;
+  width: 15%;
+  z-index: 21;
+}
+.moonImage {
+  position: absolute;
+  left: 23%;
+  top: 0%;
+  width: 10%;
+  display: none;
+}
+.sunImg {
+  position: absolute;
+  width: 35%;
+  left: 20%;
+  top: -20%;
+}
+.bulb2Img {
+  position: absolute;
+  width: 19%;
+  left: 0;
+  top: 13%;
+  z-index: 3;
+}
+.wheelImage {
+  position: absolute;
+  width: 21%;
+  left: 7%;
+  top: 12%;
+  z-index: 4;
+}
+
+.slideImage {
+  position: absolute;
+  width: 12%;
+  left: 20%;
+  top: 13%;
+  z-index: 6;
+}
