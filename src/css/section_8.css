@@ -2,7 +2,7 @@
   width: 100%;
   position: relative;
 
-  padding: 150px 0 70px;
+  padding: 150px 0 0;
 }
 .visibility {
   display: none;
@@ -73,9 +73,9 @@
 }
 .item2 {
   position: absolute;
-  width: 9%;
-  left: 7%;
-  top: 18%;
+  width: 3%;
+  left: 2%;
+  top: 27%;
 }
 .item3 {
   position: absolute;
@@ -225,7 +225,7 @@
 }
 .starImage1 {
   position: absolute;
-  width: 14%;
+  width: 8%;
   left: 8%;
   top: -54%;
 }

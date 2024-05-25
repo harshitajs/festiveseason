@@ -247,9 +247,8 @@ const TechnoidSection8 = () => {
           <div className="technoid-header8-middle">
             <div className="context-box-8 eidMsg">
               <Parallax
-                rotate={[0, 360]}
-                scaleY={[1.1, 0.1]}
-                scaleX={[1, 0.1]}
+                rotate={[0, 180]}
+                scaleY={[1, 0.5]}
                 translateY={[0, 800]}
                 translateX={[0, 500]}
                 easing={"easeIn"}
@@ -258,6 +257,7 @@ const TechnoidSection8 = () => {
                 <img
                   src={imgEDmessageLight}
                   className="imgEDmessageLight size"
+                  id="imgEDmessage"
                   alt=""
                 />
               </Parallax>
@@ -305,12 +305,12 @@ const TechnoidSection8 = () => {
                   </Parallax>
                 </div>
                 <div className="sunImg" id="sunImage">
-                  <Parallax translateX={["-200px", "0px"]} speed={5}>
+                  <Parallax translateX={[-100, 0]} rotate={20} speed={5}>
                     <img src={imgLayer4} className="imgLayer4 size" alt="" />
                   </Parallax>
                 </div>
                 <div className="moonImage visibility" id="moonImage">
-                  <Parallax translateX={["-200px", "0px"]} speed={5}>
+                  <Parallax translateX={[-100, 0]} rotate={20} speed={5}>
                     <img src={imgLayer5} className="imgLayer5 size" alt="" />
                   </Parallax>
                 </div>
@@ -450,7 +450,7 @@ const TechnoidSection8 = () => {
                 </div>
                 <div className="starImage1">
                   <Parallax translateX={[10, 0]} speed={5}>
-                    <img src={imgLayer38} className="imgLayer38" alt="" />
+                    <img src={imgLayer38} className="imgLayer38 size" alt="" />
                   </Parallax>
                 </div>
                 <div className="starImage2">
