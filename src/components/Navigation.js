@@ -3,7 +3,7 @@ import audioEnable from "../images/audio-enable.png";
 import darkMode from "../images/dark-mode.png";
 import lightMode from "../images/light-mode.png";
 import headerImage from "../images/section1-header.png";
-import sampleLogo from "../images/sample-logo.jpeg";
+
 import headerImageDark from "../images/section1-header-dark.png";
 import imgSloganLight from "../images/slogan-light.png";
 import imgSloganDark from "../images/slogan-dark.png";
@@ -106,7 +106,7 @@ const Navigation = () => {
 
           <div className="technoid-flex-header technoid-flex-item-middle">
             <div className="sampleLogo">
-              <img src={sampleLogo} alt="Sample Logo" />
+              <img src="" alt="Sample Logo" />
             </div>
           </div>
 

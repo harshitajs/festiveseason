@@ -359,10 +359,9 @@
 }
 .moonImage {
   position: absolute;
-  left: 23%;
-  top: 0%;
+  left: 20%;
+  top: -20%;
   width: 10%;
-  display: none;
 }
 .sunImg {
   position: absolute;

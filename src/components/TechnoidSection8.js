@@ -309,7 +309,7 @@ const TechnoidSection8 = () => {
                     <img src={imgLayer4} className="imgLayer4 size" alt="" />
                   </Parallax>
                 </div>
-                <div className="moonImage" id="moonImage">
+                <div className="moonImage visibility" id="moonImage">
                   <Parallax translateX={["-200px", "0px"]} speed={5}>
                     <img src={imgLayer5} className="imgLayer5 size" alt="" />
                   </Parallax>
